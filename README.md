@@ -55,7 +55,7 @@ order = query.order(id=order_id)
 order.complexity() 
 order.request_id()
 
-# Put fulfillment_status information
+# Put all data information
 order.data()
 
 # Executing the call

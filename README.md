@@ -7,7 +7,7 @@ HELP: we want to keep building on this project, but we do not have access anymor
 ## Example code
 
 - Init shiphero instance
-```
+```python
 from shiphero import Shiphero
 
 shiphero = Shiphero(
@@ -18,7 +18,7 @@ shiphero = Shiphero(
 
 ### Getting fulfillment_status from a given order_id
 
-```
+```python
 order_id='your_order_id'
 
 # Build the query
@@ -42,7 +42,7 @@ print(data)
 
 ### Getting all information from a given order_id
 
-```
+```python
 order_id='your_order_id'
 
 # Build the query
